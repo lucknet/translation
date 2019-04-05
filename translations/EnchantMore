@@ -1,0 +1,254 @@
+・Axe + Aqua Affinity: Activates a slowness potion on the player that is attacked
+プレイヤーに攻撃したときに相手に移動速度低下をつけます。
+
+・Axe + Flame: Auto-Smelt - Automatically smelts broken blocks without the need of a furnace. For example, it will smelt a wood log into charcoal.
+破壊したブロックをかまど無しに精錬します。 ex: 原木を破壊すると木炭をドロップします。
+
+・Axe + Power: Fell tree - Based on the enchantment level, all wood logs within the radius of a broken log will be removed and items dropped. Can fell a tree in one hit!
+エンチャントレベルにより能力が変化します。原木を1ブロックずつ壊さなくてもすべてを切り倒します。
+
+・Axe + Respiration: Grows a plant on right-click, if the interacted block is dirt (or mycelium for mushrooms). The higher the level, the greater chance of being able to grow a mushroom.
+もし対象のブロックが土(または菌糸ブロック)だったら、木を右クリックで植えます。
+レベルが高くなるほど、キノコが生える確率が高くなります。
+
+・Boots + Feather Falling X: Zero Fall Damage - All fall damage is cancelled while wearing these boots
+すべての落下ダメージを無効化します。
+
+・Boots + Flame: Firewalker - Ignites the ground behind the wearer, without igniting them. This means that the fire is not in a straight line and is more destructive!
+火の中をダメージを受けることなく歩けます。
+
+・Boots + Power: Witch's broom - When sprint is enabled, the wearer is able to fly up into the sky and soar above the ground. Be careful of fall damage!
+走ると、空へ高く舞い上がります。落下ダメージに気をつけてください！
+
+・Boots + Punch: Hover Jump - Double tapping shift will launch the player upwards into the sky at a velocity that depends on the enchantment level
+スニークキーをダブルタップすると、プレイヤーを空へ打ち上げます。加速度はエンチャントレベルに属します。
+
+・Bow + Aqua Affinity: Freeze water - If the arrow lands near water, the water will freeze and stuns (adds a slowness potion) to any entity in its vicinity.
+一定範囲内の水を凍らせ、Mobが移動する速度を低下させます。
+
+・Bow + Bane of Arthropods: Poison Bow - Arrows activate a poison potion effect on any entity that it hits.
+矢が当たった対象に毒のポーション効果を付与します。
+
+・Bow + Efficiency: Instant shoot - Right-clicking on a block shoots an arrow at full velocity without the need for drawing back. However, it does not work when interacting with air (this cannot be fixed).
+エンティティに対して弓を引き絞ることなく最高速度で矢を射出します。
+
+・Bow + Feather Falling: EnderBow - teleports the user to its arrows destination. Feather Falling II unlocks the grapple hook, which places an invisible ladder at the teleport destination (use Shift to hold on).
+矢が刺さったところにテレポートします。エンチャントレベルがⅡになると、下に地面がないときに自動的にはしごが生成されます。
+
+・Bow + Fire Aspect: Arrows explode on impact.
+刺さったところに爆発を起こします。
+
+・Bow + Knockback: Pierce blocks - Removes a set of blocks at the arrow's destination without drops.
+刺さったところのブロックを消し飛ばします。
+
+・Bow + Looting: Steal - Moves all entities near the arrow impact location to the player, even players!
+刺さったMobやプレイヤーを自分のところへ引き寄せます。
+！検証不可・Bow + Respiration: Stapled arrows - When shot, the arrow will attach an item that is adjacent in the player's inventory to itself.
+
+
+・Bow + Sharpness: Arrows have increased velocity
+矢が射出する速度を増加させます。
+
+・Bow + Silk Touch: Magnetic arrows attaches an entity near the player onto the arrow, similar to Bow + Respiration.
+当たった対象を自分のところへ引き寄せてから吹き飛ばします。
+
+・Bow + Smite: Strikes lightning where its arrows land
+当たった対象が居る場所に雷を落とします。
+
+・Chestplate + Infinity: God mode (Wearer takes no damage)
+着用すると、ダメージを一切受けなくなります。
+
+・Chestplate + Knockback: Reflect arrows
+矢を反射します。
+
+・Chestplate + Punch: Brass knuckles (more damage with fists)
+手で殴る時のダメージ量を増やします。
+
+・Chestplate + Respiration: Fish mode (no damage in water)
+水でのダメージを受けなくなります。
+
+・Chestplate + Sharpness: Reflect all damage to the player that dealt it.
+すべてのダメージを与えたプレイヤーに跳ね返します。
+
+・Chestplate + Silk Touch: Cactus protection (no contact damage)
+サボテンからのダメージを受けなくなります。
+
+・Fishing Rod + Efficiency: Fish faster
+釣れる速度が速くなります。
+
+・Fishing Rod + Fire Aspect: Set mobs on fire when they are hooked
+釣った対象を燃やします。
+
+・Fishing Rod + Flame: Catch cooked fish
+既に焼かれた魚が釣れます。
+
+・Fishing Rod + Fortune: Catch junk. 15 different items can be caught using this fishing rod.
+15個の異なるアイテムが釣れるようになります。
+
+・Fishing Rod + Looting: Catch extra fish
+特別な魚が釣れます。
+
+・Fishing Rod + Sharpness: Damage hooked mobs
+釣った対象にダメージを与えます。
+
+・Fishing Rod + Silk Touch: Catch more reliably
+より確実に釣れるようになります。
+
+・Fishing Rod + Smite: Strike hooked mobs with lightning
+釣った対象が居る場所に雷を落とします。
+
+・Flint & Steel + Aqua Affinity: Vaporise water in the vicinity
+近くの水を蒸発させます。
+
+・Flint & Steel + Blast Protection: Anti-creeper (cancel nearby explosion)
+クリーパーの爆発を防げます。(要検証)
+
+・Flint & Steel + Efficiency: Burn faster (turn wood to leaves)
+燃焼する速度を上昇させます。
+
+・Flint & Steel + Fire Aspect: Set mobs on fire
+殴ったMobを燃焼させます。
+
+・Flint & Steel + Fire Protection: Activates a fire resistance potion effect
+火炎耐性のポーション効果を与えます。
+
+・Flint & Steel + Punch: Cannon (launches a Primed TNT into the air)
+空中に着火済みTNTを出現させます。
+
+・Flint & Steel + Respiration: Smoke inhalation (applies a confusion effect to the entity right-clicked)
+Mobに煙を吸わせます。(混乱系のポーション効果を与えます)
+
+・Flint & Steel + Sharpness: Creates an explosion on right-click
+爆発を生じさせます。
+
+・Flint & Steel + Silk Touch: Remote detonation (Ignites a TNT)
+壊したところが爆発する（TNTを点火する）
+
+・Flint & Steel + Smite: Strike lightning
+点火させると雷が落ちる
+
+・Helmet + Fire Aspect: Swim in lava without taking damage
+マグマの中に入ってもダメージを受けず水の中のように泳げる
+
+・Hoe + Aqua Affinity: Auto-hydrate (Adds water to crops)
+耕した瞬間に自動で水が流れる
+
+・Hoe + Bane of Arthropods: Weather alteration (left-click storm, right-click sun)
+天気の変更（左クリックの嵐、右クリックの太陽）
+
+・Hoe + Efficiency: Till larger area
+広い範囲を耕せる
+
+・Hoe + Fire Protection: Block and Entity information sensor
+クリックした場所のバイオーム、時間、Sea Level?、天候、ブロック名、ライト、データ、シード値が見れる
+
+・Hoe + Fortune: When tilled, dirt has a chance to drop seeds
+耕したとき種を落とすことがある
+
+・Hoe + Knockback: Pushes an entity into the ground when they are right-clicked (Eat dirt!)
+粗い土をいったん土に戻してから耕すことができる(汚れを食べる？）
+
+・Hoe + Power: Time control (Depending on the efficiency of the hoe, time is moved forward a certain amount)
+耕すごとに時間が変わっていく
+
+
+・Hoe + Punch: Transform a baby into an adult
+動物等の赤ちゃんを大人にします
+
+！検証不可・Hoe + Respiration: Grow any plant as bone meal allows
+骨粉のように植物を育てます
+
+！検証不可・Hoe + Silk Touch: Harvest farmland, crop block, pumpkin/melon stem, cake block, sugarcane block, netherwart block (preserving data)
+収穫農地、作物ブロック、カボチャ/メロンステム、ケーキブロック、サトウキビブロック、ネットワーツブロック（保存データ）
+
+
+・Leggings + Feather Falling: Surface (triple-tap shift to teleport to the highest block at current location)
+立っているブロックの上にあるブロックのてっぺんまでテレポートします(シフトをトリプルタップ)
+
+！検証不可・Leggings + Knockback: Tackle (more damage when sprinting)
+タックル
+
+！検証不可・Leggings + Punch: Rocket launch pants (double-tap shift to launch in the direction of view)
+
+ロケット打ち上げパンツ
+
+・Pickaxe + Flame: Auto-Smelt - Automatically smelts broken blocks without the need of a furnace. For example, it will smelt a wood log into charcoal.
+かまどに入れて焼くものをこれで掘ると鉱石や木炭になってドロップする
+
+・Pickaxe + Looting: Deconstruct broken blocks (reverse crafting)
+作ったブロックを解体する(鉄ブロックを掘ると鉄インゴット9個になって出てくる)
+
+・Pickaxe + Power: Instantly break anything (except bedrock - can be configured)
+Worldeditで言うスーパーピッケル(なんでも一瞬で壊す(岩盤以外、設定で変更可能))
+
+・Pickaxe + Sharpness: When one ore is mined, the rest nearby will be broken automatically
+一括採掘
+
+・Pickaxe + Silk Touch II: Harvest ice, double slabs, silverfish blocks
+特殊なブロックを掘れるようになる
+
+！検証不可・Pickaxe + Silk Touch III: Harvest endercrystal (right-click)
+エンドクリスタルが壊せます
+
+・Shears + Bane of Arthropods: Extract spider eyes
+蜘蛛に対して右クリックで蜘蛛の目を取り出します
+
+・Shears + Fortune: Apples are dropped when leaves are broken
+葉っぱを壊すとリンゴが落ちます
+たまに金のリンゴが落ちます
+
+・Shears + Looting: Harvest more wool (random colors), feathers from chickens, leather from cows, saddles from saddled pigs
+鶏から羽が落ちてきて羊からは普通の羊毛とたまにカラフルな羊毛が落ちてきます
+
+・Shears + Power: Cut grass and trim hedges quickly
+草ブロックを土ブロックにします
+
+・Shears + Silk Touch: Harvest cobweb, dead bush
+蜘蛛の巣をそのまま落とします
+
+
+！検証不可・Shears + Smite: Gouge eyes (Adds a blindness effect to the victim)
+盲目の効果を犠牲者に加える
+
+・Shovel + Flame: Auto-Smelt - Automatically smelts broken blocks without the need of a furnace. For example, it will smelt a wood log into charcoal.
+かまどを使わずに壊したものを焼きます
+
+・Shovel + Power: Excavation (dig large area without drops)
+広範囲を一気に掘ります
+
+！検証不可・Shovel + Silk Touch II: Harvest fallen snow, fire
+雪を火を掘れます
+
+・Sword + Blast Protection: Shoot fireball (right-click)
+火の球を投げます
+
+！検証不可・Sword + Feather Falling: Launch victim (right-click)
+犠牲者を起動する（右クリック）
+
+！検証不可・Sword + Fire Protection: When dropped in lava, the sword will automatically return to the owner's feet
+溶岩に落とされたとき、剣は自動的にオーナーの足元に戻ります
+
+
+！検証不可・Sword + Fortune: Pickpocket (right-click player to drop an item out of their inventory)
+Pickpocket（プレイヤーを右クリックしてアイテムを在庫から落とす）
+
+・Sword + Infinity: Selective invisibility (right-click player to vanish from their view. Note that you are only invisible from that player)
+自分から選択したプレイヤーが見えなくなります
+
+・Sword + Power: Strike lightning far away
+切ったところに雷が落ちます
+
+！検証不可・Sword + Protection: Resistance potion effect when blocking
+ガードしているときの防御が少し上がります
+
+・Sword + Punch: Knock item out of hand (right-click player)
+アイテムをノックアウト（プレイヤーを右クリック）
+
+
+！検証不可・Sword + Respiration: Banhammer (1=kick, 2+=temp ban)
+banをします（1 =キック、2 + =一時禁止）
+
+
+・Sword + Silk Touch: Capture (right-click to drop entity as spawn egg item)
+mobに右クリックをするとスポーンエッグになります
+
