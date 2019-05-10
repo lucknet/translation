@@ -1,0 +1,24 @@
+Settings:
+  mysql: true
+  commandAliases: ot,pt,playtime
+  disabledServers:
+  topOnlineTimesLimit: 10
+MySQL:
+  host: localhost
+  port: 3306
+  database: BungeeOnlineTime
+  username: <username>
+  password: <password>
+Language:
+  onlyPlayer: '&7このコマンドはコンソール上から実行できません。'
+  noPermission: '&7このコマンドを実行する権限がありません。'
+  error: '&7エラーが発生しました。'
+  errorSaving: '&7プレイ時間を保存している途中でエラーが発生しました。'
+  playerNotFound: '&7プレイヤー ''&6%PLAYER%&7'' は見つかりませんでした。'
+  onlineTime: '&6%PLAYER%&7'' のプレイ時間: &6%HOURS%&7時間 &6%MINUTES%&7分'
+  topTimeLoading: '&7Top 10 ランキングを読み込んでいます...'
+  topTimeAbove: '&7====== &6Top 10 &7======'
+  topTime: '&6%PLAYER%&7: &6%HOURS%&7時間 &6%MINUTES%&7分'
+  topTimeBelow: '&7====== &6Top 10 &7======'
+  resetAll: '&7データベースがリセットされました。'
+  resetPlayer: '&6%PLAYER%&7'' のプレイ時間はリセットされました。'
