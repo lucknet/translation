@@ -1,0 +1,63 @@
+command:
+  global-list:
+    label: glist
+    permission: bungeecord.command.list
+    aliases:
+    - blist
+    - bls
+formats:
+  global-list:
+    server-row-format: ' &b{SERVER_NAME} &6{PLAYER_AMOUNT} &8{GRAPHIC_BAR} &8[&6{PERCENT}&8]'
+    graphic-background-color: '&8&l'
+    graphic-bar-color: '&7&l'
+    full-message-format:
+    - '&8&m&l----------------------------------&r'
+    - ' &eネットワーク全体のプレイヤー:'
+    - ''
+    - '{SERVERS_ROWS}'
+    - ''
+    - ' &7&o&f&o{NOT_DISPLAYED_AMOUNT} &7&oつのサーバーが表示されていません。&r'
+    - ' &6合計プレイヤー: &f{TOTAL_PLAYER_AMOUNT}'
+    - ''
+    - ' &fTIP: &7Use &e/{LABEL} <server> &7で指定されたプレイヤーにログインしている'
+    - '&7すべてのプレイヤーを表示します。'
+    - '&8&m&l----------------------------------'
+    no-servers-format: ' &c表示するサーバーがありません。'
+  server-list:
+    full-message-format:
+    - '&8&m--------------------------------------&r'
+    - ' &6サーバー名: &f{SERVER_NAME}'
+    - ' &6プレイヤー数: &f{PLAYERS_COUNT}'
+    - ' &eページ &f{PAGE} &6/ &f{TOTAL_PAGES}'
+    - ''
+    - '{PLAYERS_ROWS}'
+    - '{PAGINATION_CONTROLLER}'
+    - '&8&m--------------------------------------'
+    no-page-data-message:
+    - '&8&m--------------------------------------&r'
+    - ' &cこのページには何もありません！ &f1 &cから &f{TOTAL_PAGES}&c の間を試してみてください。'
+    - '&8&m--------------------------------------'
+    no-players-message:
+    - '&8&m--------------------------------------&r'
+    - ' &cこのサーバーには誰もログインしていません。'
+    - '&8&m--------------------------------------'
+behaviour:
+  global-list:
+    hide-empty-servers: true
+    max-servers-rows: 20
+    min-player-count-to-display-server: 1
+  server-list:
+    players-per-page: 16
+  blacklisted-servers:
+  - null
+  global-list-uppercase-server-names: false
+  server-list-uppercase-server-name: false
+messages:
+  server-players: '{SERVER_NAME} にログインしているプレイヤー:'
+  cannot-found-server: '&c{NAME} &cというサーバーは登録されていません。'
+  previous-page-hover-message: '&eここをクリックすると &f#{PAGE_NUMBER} &eページへ移動します。'
+  next-page-hover-message: '&eここをクリックすると &f#{PAGE_NUMBER} &eページへ移動します。'
+  previous-page: 前のページ
+  next-page: 次のページ
+  no-previous-page: '&cこれ以上ページを繰ることはできません。'
+  no-next-page: '&cこれ以上ページを進めることはできません。'
